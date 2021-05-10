@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Utopia/Flow/Flow.iml" filepath="$PROJECT_DIR$/../Utopia/Flow/Flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Utopia/Genesis/Genesis.iml" filepath="$PROJECT_DIR$/../Utopia/Genesis/Genesis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Utopia/Inception/Inception.iml" filepath="$PROJECT_DIR$/../Utopia/Inception/Inception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Utopia/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/../Utopia/Reflection/Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Varusta-Suomi-Logo.iml" filepath="$PROJECT_DIR$/Varusta-Suomi-Logo.iml" />
+    </modules>
+  </component>
+</project>
