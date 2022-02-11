@@ -16,7 +16,7 @@ object VarustaLogoApp extends App
 	// Loads the font from a file (may throw)
 	val font = Font.load("data/fonts/Damavand-Demibold.ttf", 100).get
 	
-	val names = Vector("SUOMI", "UUSIMAA")
+	val names = Vector("FORSSA", "KESKI-SUOMI", "JYVÄSKYLÄ", "PORI", "KYMI", "KOKKOLA", "KAINUU")
 	println(s"Generating logos for ${names.mkString(", ")}")
 	LogoMaker(names, font)
 	println("Logo generation completed!")

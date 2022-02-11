@@ -45,7 +45,7 @@ object LogoMaker
 			Image.readFrom(imagesDirectory/"fire-dark.png").flatMap { darkFire =>
 				// The text is separated into two lines "Varusta" + "Suomi" and a two-line exclamation point.
 				// The text needs to have the same width as the image
-				names.tryForEach { name =>
+				names.tryForeach { name =>
 					makeImage(name, normalFire, white, blue, font)
 						.writeToFile(outputDirectory/s"varusta-${name.toLowerCase}-light.png")
 						.flatMap { _ =>
